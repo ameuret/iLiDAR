@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0036B8254E87B739132D2A2DA420A106 /* NSObject+KeyValueObserving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B286A40EE9ADA2A6674C62D843496D1 /* NSObject+KeyValueObserving.swift */; };
 		07AD3B162FD85C35D9F3BB601A7ED947 /* Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737743F1237DAFAAC2B5B75A17EAE876 /* Reactive.swift */; };
-		08BAAEEC99E40C79BB8F2CF9F0F3CCC8 /* Pods-LiDARDepth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 861FDB89244CEB72AAB971B144F62CFF /* Pods-LiDARDepth-dummy.m */; };
+		08BAAEEC99E40C79BB8F2CF9F0F3CCC8 /* Pods-iLiDAR-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 861FDB89244CEB72AAB971B144F62CFF /* Pods-iLiDAR-dummy.m */; };
 		09D41A7EE420D9EF74DA6D16BB1D18AF /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F44E7A10CE67F94B4E6EC18973E0A7 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0E08416427222855F6A41B2DAA1EC415 /* UIGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3CF57B9933B76C7B3CB0B2910756A8 /* UIGestureRecognizer.swift */; };
 		0ECC73BCC6A8167851DDC4605FE98A10 /* UINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0B933EDD78A347AE2F55E2F2B4BEBF /* UINavigationBar.swift */; };
@@ -64,7 +64,7 @@
 		7150E484D0AA4738CBBAF24F86369CA7 /* ReactiveCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FF7B0D6EBB6DE5E3EA70A911AD46B10 /* ReactiveCocoa.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		75315AE5E6E7A67FD8E41336F7282310 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 055F866FBE248EDDF0A659334161841A /* CocoaAsyncSocket-dummy.m */; };
 		75F4956FD8002D34FBA9D11A4FEEE1CE /* CompactMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFE0C8EDA782D73B37BAA243CBE2456 /* CompactMap.swift */; };
-		7607FFA614D195A4B1E4F051A186E8E2 /* Pods-LiDARDepth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D767BA3A34A21809CD6A704DAA67899C /* Pods-LiDARDepth-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7607FFA614D195A4B1E4F051A186E8E2 /* Pods-iLiDAR-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D767BA3A34A21809CD6A704DAA67899C /* Pods-iLiDAR-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		77872B9A4F06A1277C5FB8552F2E59C9 /* UISwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964899A293EC9F9929622C4BC48C0E77 /* UISwitch.swift */; };
 		77BB2E9352EA04EF9C494495CBB7E771 /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9757E5DBDF18EFE0919C27FE329F998A /* UITextView.swift */; };
 		7A6F266D6B35F3915FB28543FFE3F7EF /* CollectEvery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884CCD8A671F79B506308EC276A592CB /* CollectEvery.swift */; };
@@ -219,7 +219,7 @@
 		0D3CF48F4B44F48DA7AAA5FF426F48AC /* ReactiveCocoa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReactiveCocoa.debug.xcconfig; sourceTree = "<group>"; };
 		12C7D67C84EA9FA726811B8D350DC493 /* UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewController.swift; path = ReactiveCocoa/UIKit/UIViewController.swift; sourceTree = "<group>"; };
 		17DCBE39855FCAF1833E1CEF8948AF18 /* NSObject+ObjCRuntime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+ObjCRuntime.swift"; path = "ReactiveCocoa/NSObject+ObjCRuntime.swift"; sourceTree = "<group>"; };
-		1873E780C91574B740EB7793CC9688F4 /* Pods-LiDARDepth-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiDARDepth-acknowledgements.plist"; sourceTree = "<group>"; };
+		1873E780C91574B740EB7793CC9688F4 /* Pods-iLiDAR-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iLiDAR-acknowledgements.plist"; sourceTree = "<group>"; };
 		189830024FC5F99A649C1D055C06F6A0 /* DynamicProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicProperty.swift; path = ReactiveCocoa/DynamicProperty.swift; sourceTree = "<group>"; };
 		18EA063255414A9D8733308E49D8A9F9 /* UIImpact​Feedback​Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImpact​Feedback​Generator.swift"; path = "ReactiveCocoa/UIKit/iOS/UIImpact​Feedback​Generator.swift"; sourceTree = "<group>"; };
 		19288F17BF2687673948CD46C1AFD294 /* UIPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIPickerView.swift; path = ReactiveCocoa/UIKit/iOS/UIPickerView.swift; sourceTree = "<group>"; };
@@ -250,7 +250,7 @@
 		46534A71E60BB6A67B4702DE3CCDF1B1 /* MapError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapError.swift; path = Sources/Observers/MapError.swift; sourceTree = "<group>"; };
 		4758D720C66C8E64321809A77F1B6FB5 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		47CE4E6A5140763FB2218D7A77B482A2 /* SkipRepeats.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkipRepeats.swift; path = Sources/Observers/SkipRepeats.swift; sourceTree = "<group>"; };
-		48BEE87517B8F05C2511B5F761EE2EA5 /* Pods-LiDARDepth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LiDARDepth.modulemap"; sourceTree = "<group>"; };
+		48BEE87517B8F05C2511B5F761EE2EA5 /* Pods-iLiDAR.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iLiDAR.modulemap"; sourceTree = "<group>"; };
 		490AC753C5C289D7B70E73B4E7512560 /* libReactiveCocoa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReactiveCocoa.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AB0C1A07381813A9591FB1A5D459FF2 /* FoundationExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationExtensions.swift; path = Sources/FoundationExtensions.swift; sourceTree = "<group>"; };
 		4AB0FF21607C50F092513D825F9B19A5 /* Collect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collect.swift; path = Sources/Observers/Collect.swift; sourceTree = "<group>"; };
@@ -269,13 +269,13 @@
 		56F958B0BFDA83E6C70E12522A8EFB77 /* DelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelegateProxy.swift; path = ReactiveCocoa/DelegateProxy.swift; sourceTree = "<group>"; };
 		57DBE0C2DA5D6A1DA122521B5C66B908 /* UIControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIControl.swift; path = ReactiveCocoa/UIKit/UIControl.swift; sourceTree = "<group>"; };
 		59A4395B181F0128CDD13C3F96E51E97 /* Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Map.swift; path = Sources/Observers/Map.swift; sourceTree = "<group>"; };
-		5A8CD8E53D80EF933B537CC677D10D34 /* Pods-LiDARDepth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiDARDepth.release.xcconfig"; sourceTree = "<group>"; };
+		5A8CD8E53D80EF933B537CC677D10D34 /* Pods-iLiDAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iLiDAR.release.xcconfig"; sourceTree = "<group>"; };
 		5BD2ECD2B2D5AF0C32859F5650EF0BD2 /* ObjC+Selector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObjC+Selector.swift"; path = "ReactiveCocoa/ObjC+Selector.swift"; sourceTree = "<group>"; };
 		5C73BD80A3502AFE8538640F9F0AB42A /* UIBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIBarItem.swift; path = ReactiveCocoa/UIKit/UIBarItem.swift; sourceTree = "<group>"; };
 		60F47DE08502359A00E782CC937BB9E2 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
 		63A64A517A7FF77F0640BCC54381C1EF /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
 		66B377838E991E5EFEB4BC45455EA901 /* UICollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICollectionView.swift; path = ReactiveCocoa/UIKit/UICollectionView.swift; sourceTree = "<group>"; };
-		6A10578BEC33E6C8B4FC972C7A6CDE62 /* libPods-LiDARDepth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LiDARDepth.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A10578BEC33E6C8B4FC972C7A6CDE62 /* libPods-iLiDAR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iLiDAR.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CBEFE4F9E22AFDC6347A739BB35FF8C /* libCocoaAsyncSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocoaAsyncSocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D8FA80ED85D1A924337FC9DCAE0C730 /* ValidatingProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidatingProperty.swift; path = Sources/ValidatingProperty.swift; sourceTree = "<group>"; };
 		6F4FCB436A805B24501414FF13044BB8 /* ScanMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScanMap.swift; path = Sources/Observers/ScanMap.swift; sourceTree = "<group>"; };
@@ -293,7 +293,7 @@
 		841561CFDA860133BA55067F82A5CEFB /* ReactiveCocoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReactiveCocoa.release.xcconfig; sourceTree = "<group>"; };
 		851DFB87F2ADA3D2180881A90946B156 /* Deprecations+Removals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Deprecations+Removals.swift"; path = "Sources/Deprecations+Removals.swift"; sourceTree = "<group>"; };
 		85FDB792063FA6B75533D5AF92B8FE37 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		861FDB89244CEB72AAB971B144F62CFF /* Pods-LiDARDepth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LiDARDepth-dummy.m"; sourceTree = "<group>"; };
+		861FDB89244CEB72AAB971B144F62CFF /* Pods-iLiDAR-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iLiDAR-dummy.m"; sourceTree = "<group>"; };
 		867A52034B9075A716CCE93D35009DAA /* UIKitReusableComponents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitReusableComponents.swift; path = ReactiveCocoa/UIKit/UIKitReusableComponents.swift; sourceTree = "<group>"; };
 		870D57C5C93A1BE2E90D3F0875318200 /* SkipWhile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkipWhile.swift; path = Sources/Observers/SkipWhile.swift; sourceTree = "<group>"; };
 		8808A59B7E28499F588E2BED67CC9F25 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
@@ -336,7 +336,7 @@
 		C660E83CC6576DB1EA5C1CBD9512A756 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		C78CC72662914386F6DEB4B2ED03D7A9 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		C80C6944DD2670FC0AC234280C8DD629 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
-		C860E90EEAF88E253939E1587DCE8188 /* Pods-LiDARDepth-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LiDARDepth-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C860E90EEAF88E253939E1587DCE8188 /* Pods-iLiDAR-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iLiDAR-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CA3CF57B9933B76C7B3CB0B2910756A8 /* UIGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIGestureRecognizer.swift; path = ReactiveCocoa/UIKit/UIGestureRecognizer.swift; sourceTree = "<group>"; };
 		CB8AA35636036B46E4EEE0E8CBF913E0 /* ReactiveCocoa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReactiveCocoa-umbrella.h"; sourceTree = "<group>"; };
 		CBECFA5C68BEBCEFD3EA76E132CB9A48 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
@@ -350,7 +350,7 @@
 		D4D22B6107D1C081DCD4AE114349D2DE /* ReactiveCocoa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReactiveCocoa-dummy.m"; sourceTree = "<group>"; };
 		D5E3255DE160C671C413AFD51187D995 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		D62308BE838CCE62BA3C2B3235DC4D79 /* UninhabitedTypeGuards.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UninhabitedTypeGuards.swift; path = Sources/UninhabitedTypeGuards.swift; sourceTree = "<group>"; };
-		D767BA3A34A21809CD6A704DAA67899C /* Pods-LiDARDepth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LiDARDepth-umbrella.h"; sourceTree = "<group>"; };
+		D767BA3A34A21809CD6A704DAA67899C /* Pods-iLiDAR-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iLiDAR-umbrella.h"; sourceTree = "<group>"; };
 		D7862C87F76F427C623E55D6A6B348D7 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
 		DB550051B661FE387315D0940B5BDC3B /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Action.swift; path = Sources/Action.swift; sourceTree = "<group>"; };
 		DD7BD56CE402E88644F1268444EE6C76 /* NSObject+Intercepting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Intercepting.swift"; path = "ReactiveCocoa/NSObject+Intercepting.swift"; sourceTree = "<group>"; };
@@ -378,7 +378,7 @@
 		FC3E370FA31F6BBBAAEAAAB73B30D3CA /* CocoaAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoaAction.swift; path = ReactiveCocoa/CocoaAction.swift; sourceTree = "<group>"; };
 		FCFA829D95651AD333E10714BD902718 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Observers/Filter.swift; sourceTree = "<group>"; };
 		FE2B9E99B95078B1C5814715944CDFA3 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
-		FF3654B698375091E095739839BC5320 /* Pods-LiDARDepth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiDARDepth.debug.xcconfig"; sourceTree = "<group>"; };
+		FF3654B698375091E095739839BC5320 /* Pods-iLiDAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iLiDAR.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -477,7 +477,7 @@
 		9070E73AA64FD1F45F732A03BBCDABCF /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DC6A5D5FF4008ED63905D651F8176A03 /* Pods-LiDARDepth */,
+				DC6A5D5FF4008ED63905D651F8176A03 /* Pods-iLiDAR */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -648,19 +648,19 @@
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
-		DC6A5D5FF4008ED63905D651F8176A03 /* Pods-LiDARDepth */ = {
+		DC6A5D5FF4008ED63905D651F8176A03 /* Pods-iLiDAR */ = {
 			isa = PBXGroup;
 			children = (
-				48BEE87517B8F05C2511B5F761EE2EA5 /* Pods-LiDARDepth.modulemap */,
-				C860E90EEAF88E253939E1587DCE8188 /* Pods-LiDARDepth-acknowledgements.markdown */,
-				1873E780C91574B740EB7793CC9688F4 /* Pods-LiDARDepth-acknowledgements.plist */,
-				861FDB89244CEB72AAB971B144F62CFF /* Pods-LiDARDepth-dummy.m */,
-				D767BA3A34A21809CD6A704DAA67899C /* Pods-LiDARDepth-umbrella.h */,
-				FF3654B698375091E095739839BC5320 /* Pods-LiDARDepth.debug.xcconfig */,
-				5A8CD8E53D80EF933B537CC677D10D34 /* Pods-LiDARDepth.release.xcconfig */,
+				48BEE87517B8F05C2511B5F761EE2EA5 /* Pods-iLiDAR.modulemap */,
+				C860E90EEAF88E253939E1587DCE8188 /* Pods-iLiDAR-acknowledgements.markdown */,
+				1873E780C91574B740EB7793CC9688F4 /* Pods-iLiDAR-acknowledgements.plist */,
+				861FDB89244CEB72AAB971B144F62CFF /* Pods-iLiDAR-dummy.m */,
+				D767BA3A34A21809CD6A704DAA67899C /* Pods-iLiDAR-umbrella.h */,
+				FF3654B698375091E095739839BC5320 /* Pods-iLiDAR.debug.xcconfig */,
+				5A8CD8E53D80EF933B537CC677D10D34 /* Pods-iLiDAR.release.xcconfig */,
 			);
-			name = "Pods-LiDARDepth";
-			path = "Target Support Files/Pods-LiDARDepth";
+			name = "Pods-iLiDAR";
+			path = "Target Support Files/Pods-iLiDAR";
 			sourceTree = "<group>";
 		};
 		DDA4753F50BCEC20ECBEE6E54CEC3F7B /* ReactiveCocoa */ = {
@@ -734,7 +734,7 @@
 			children = (
 				A4FA15D44DF6BAC7550EDEED10862AA3 /* libAFNetworking.a */,
 				6CBEFE4F9E22AFDC6347A739BB35FF8C /* libCocoaAsyncSocket.a */,
-				6A10578BEC33E6C8B4FC972C7A6CDE62 /* libPods-LiDARDepth.a */,
+				6A10578BEC33E6C8B4FC972C7A6CDE62 /* libPods-iLiDAR.a */,
 				490AC753C5C289D7B70E73B4E7512560 /* libReactiveCocoa.a */,
 				F87D9465992CEA630BE417FC7868C484 /* libReactiveSwift.a */,
 			);
@@ -794,7 +794,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7607FFA614D195A4B1E4F051A186E8E2 /* Pods-LiDARDepth-umbrella.h in Headers */,
+				7607FFA614D195A4B1E4F051A186E8E2 /* Pods-iLiDAR-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -890,9 +890,9 @@
 			productReference = 6CBEFE4F9E22AFDC6347A739BB35FF8C /* libCocoaAsyncSocket.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		91BB4B700C77B2EA2AC1CE75068DEB1F /* Pods-LiDARDepth */ = {
+		91BB4B700C77B2EA2AC1CE75068DEB1F /* Pods-iLiDAR */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C0E992BD9FB6D8FA30950D69D0E0FF1 /* Build configuration list for PBXNativeTarget "Pods-LiDARDepth" */;
+			buildConfigurationList = 7C0E992BD9FB6D8FA30950D69D0E0FF1 /* Build configuration list for PBXNativeTarget "Pods-iLiDAR" */;
 			buildPhases = (
 				6A0C46D8B64271E76D444B893C429815 /* Headers */,
 				AA5A46C103069EFBC2ACD4C562A074B9 /* Sources */,
@@ -906,9 +906,9 @@
 				518C9DB666853CB78F55568FB1134995 /* PBXTargetDependency */,
 				320400A5AF8A9B7D1A2BFB495E82DBE1 /* PBXTargetDependency */,
 			);
-			name = "Pods-LiDARDepth";
-			productName = "Pods-LiDARDepth";
-			productReference = 6A10578BEC33E6C8B4FC972C7A6CDE62 /* libPods-LiDARDepth.a */;
+			name = "Pods-iLiDAR";
+			productName = "Pods-iLiDAR";
+			productReference = 6A10578BEC33E6C8B4FC972C7A6CDE62 /* libPods-iLiDAR.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -935,7 +935,7 @@
 			targets = (
 				0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */,
 				6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */,
-				91BB4B700C77B2EA2AC1CE75068DEB1F /* Pods-LiDARDepth */,
+				91BB4B700C77B2EA2AC1CE75068DEB1F /* Pods-iLiDAR */,
 				07B5C6907D09E767CDC5954A9468CA2E /* ReactiveCocoa */,
 				08B8EF1A02DE30CBEFB370FFE1C123C0 /* ReactiveSwift */,
 			);
@@ -1153,7 +1153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08BAAEEC99E40C79BB8F2CF9F0F3CCC8 /* Pods-LiDARDepth-dummy.m in Sources */,
+				08BAAEEC99E40C79BB8F2CF9F0F3CCC8 /* Pods-iLiDAR-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1250,7 +1250,7 @@
 		};
 		604220225B8870181909536880458CD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF3654B698375091E095739839BC5320 /* Pods-LiDARDepth.debug.xcconfig */;
+			baseConfigurationReference = FF3654B698375091E095739839BC5320 /* Pods-iLiDAR.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1261,7 +1261,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LiDARDepth/Pods-LiDARDepth.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-iLiDAR/Pods-iLiDAR.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1514,7 +1514,7 @@
 		};
 		BE8FC729D92603B12DD635ED21D6A020 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A8CD8E53D80EF933B537CC677D10D34 /* Pods-LiDARDepth.release.xcconfig */;
+			baseConfigurationReference = 5A8CD8E53D80EF933B537CC677D10D34 /* Pods-iLiDAR.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1525,7 +1525,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LiDARDepth/Pods-LiDARDepth.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-iLiDAR/Pods-iLiDAR.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1624,7 +1624,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C0E992BD9FB6D8FA30950D69D0E0FF1 /* Build configuration list for PBXNativeTarget "Pods-LiDARDepth" */ = {
+		7C0E992BD9FB6D8FA30950D69D0E0FF1 /* Build configuration list for PBXNativeTarget "Pods-iLiDAR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				604220225B8870181909536880458CD1 /* Debug */,

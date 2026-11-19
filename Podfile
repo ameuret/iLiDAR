@@ -3,7 +3,7 @@
 
 platform :ios, '15.4'
 
-target 'LiDARDepth' do
+target 'iLiDAR' do
   pod 'CocoaAsyncSocket'
   pod 'AFNetworking'
   pod 'ReactiveCocoa', '~> 11.0'

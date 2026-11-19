@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_LiDARDepthVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_LiDARDepthVersionString[];
+FOUNDATION_EXPORT double Pods_iLiDARVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_iLiDARVersionString[];
 

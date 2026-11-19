@@ -1,0 +1,6 @@
+module Pods_iLiDAR {
+  umbrella header "Pods-iLiDAR-umbrella.h"
+
+  export *
+  module * { export * }
+}
