@@ -29,8 +29,7 @@ jobs:
             -archivePath build/iLiDAR.xcarchive \
             -destination "generic/platform=iOS" \
             CODE_SIGNING_ALLOWED=NO \
-            CODE_SIGN_IDENTITY="" \
-            PRODUCT_BUNDLE_IDENTIFIER=com.example.ilidar
+            CODE_SIGN_IDENTITY=""
 
       - name: Package unsigned IPA
         run: |
