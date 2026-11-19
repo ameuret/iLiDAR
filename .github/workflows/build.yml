@@ -1,0 +1,46 @@
+name: Build iLiDAR
+
+on:
+  workflow_dispatch:
+    inputs:
+      app_version:
+        description: "Version prefix (e.g. 1.0)"
+        required: false
+        default: "1.0"
+
+jobs:
+  build:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install CocoaPods
+        run: gem install cocoapods
+
+      - name: Pod install
+        run: pod install
+
+      - name: Build (unsigned)
+        run: |
+          xcodebuild archive \
+            -workspace iLiDAR.xcworkspace \
+            -scheme iLiDAR \
+            -configuration Release \
+            -archivePath build/iLiDAR.xcarchive \
+            -destination "generic/platform=iOS" \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGN_IDENTITY="" \
+            PRODUCT_BUNDLE_IDENTIFIER=com.example.ilidar
+
+      - name: Export IPA
+        run: |
+          xcodebuild -exportArchive \
+            -archivePath build/iLiDAR.xcarchive \
+            -exportPath build/ipa \
+            -exportOptionsPlist <(echo '<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>method</key><string>development</string><key>teamID</key><string></string></dict></plist>')
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: iLiDAR.ipa
+          path: build/ipa/*.ipa   
