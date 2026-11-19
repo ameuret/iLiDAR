@@ -32,12 +32,11 @@ jobs:
             CODE_SIGN_IDENTITY="" \
             PRODUCT_BUNDLE_IDENTIFIER=com.example.ilidar
 
-      - name: Export IPA
+      - name: Package unsigned IPA
         run: |
-          xcodebuild -exportArchive \
-            -archivePath build/iLiDAR.xcarchive \
-            -exportPath build/ipa \
-            -exportOptionsPlist <(echo '<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>method</key><string>development</string><key>teamID</key><string></string></dict></plist>')
+          mkdir -p build/ipa/Payload
+          cp -R "build/iLiDAR.xcarchive/Products/Applications/iLiDAR.app" build/ipa/Payload/
+          cd build/ipa && zip -qry iLiDAR.ipa Payload
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
